@@ -11,6 +11,15 @@ PROGRAMA DE CURSO ESTADÍSTICA
 * Profesor: Manuel Andrés Martínez
 * Correo : manuel.martinez@uexternado.edu.co
 
+## Descripción del Curso
+
+Ser asertivo en la presentación de resultados de una empresa o argumentar las conclusiones de una investigación,  son procesos que requieren de una buena compresión de los datos y de las preguntas precisas que puedan atender los objetivos generales y específicos de un proyecto. 
+
+La dificultad que se presenta al plantear las ideas y el mensaje que se quiere proyectar se puede resolver a través de dos vías, la primera con ayuda de la rigurosidad de la estadística que de forma sencilla ofrece una metodología para abordar cualquier problema en cualquier área de estudio, y la segunda es la aplicación de esos conceptos estadísticos a través de programas que hoy en día pueden representar todo lo que una persona quiere decir a través de gráficos, tablas o modelos.
+
+El curso de estadística 1 se enfocará en generar competencias tecnológicas y teóricas para que los estudiantes aprendan a abordar, analizar y resolver problemas que requieren un fuerte componente investigativo con ayuda de herramientas tecnológicas. 
+
+
 
 ## Criterios de evaluación
 
