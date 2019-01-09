@@ -1,20 +1,41 @@
-# Proyecto de Análisis exploratorio 
+# Proyecto de Análisis Exploratorio 
 
+Realizar un análisis exploratorio requiere de una buena aplicación de los conceptos estadísticos y mucha imaginación para determinar cuales deben ser los puntos importantes o necesarios para entender una base de datos y obtener las conclusiones que permitan tomar las decisiones que más beneficien a una organización.
 
-<a href="https://www.kaggle.com/theworldbank/world-bank-health-population/home/">Visit our HTML tutorial</a> 
-h
+Este trabajo busca que usted explore la base de datos del tema que desee, establesca una pregunta y de una forma simple usando gráficos y medidas estadísticas resuelva una pregunta o necesidad que usted pueda extraer de la base de datos.
 
-Encuentre un conjunto de datos de series de tiempo de su elección. 
-Realice un análisis de series de tiempo, aprovechando lo que hemos aprendido hasta ahora en este curso. Escribir un informe, como un archivo de notas de R (Rmd). 
-El archivo Rmd debe leer los datos directamente desde una fuente de Internet y se debe subir en este repositorio.
+La forma más fácil de averiguar qué investigar, es preguntarle a las partes interesadas (otras personas que se preocupan por lo que está en sus datos y que les gustaría saber) qué considerarían como la información más importante.
 
+Hay algunas pautas generales que puede usar para averiguar qué información incluir en un panel, por ejemplo:
+
+* ¿Qué información está cambiando relativamente rápido? 
+* ¿Qué información es la más importante para tu misión? Si eres una empresa, las cosas como el dinero o los usuarios probablemente serán muy importantes, pero si desea implementar una política económica o financiera que debería mirar primero.
+* ¿Qué afectará las decisiones que usted u otros deberán tomar? ¿Está ejecutando pruebas A / B y necesita elegir qué modelo mantener económico o financiero basado en ellas? Entonces, probablemente sea importante que realice un seguimiento de sus métricas y otras cosas que puedan afectar esas métricas. ¿Hay algún factor externo que pueda afectar su investigación?.
+* ¿Qué cambios ha hecho?  han afectado los resultados , ¿Representa mejor la idea que usted desea mostrar?.
 
 ## Datos:
 
-La serie de tiempo debería tener al menos 100 observaciones. 
-Puedes tener menos, si tus intereses lo exigen. Los datos más cortos requieren atención adicional, 
-ya que los diagnósticos de modelos y las aproximaciones asintóticas se vuelven más delicados en los conjuntos de datos pequeños. 
-Si sus datos son más largos ejemplo 1000 observaciones, puede realizar una submuestra. 
+Los datos que se presentan a continuación pertencen a una pagina web que se llama 
+<a href="https://www.kaggle.com/">kaggle</a> en donde se recopilan más de un millon de códigos en python y R, y es el punto de partida para la investigación en análisis de datos de muchas empresas, en esta página usted encontrará los kernels, que son códigos escritos en R o Python y que se pueden correr directamente en la pagina, tambiém hay bases de datos como las que se presentan a continuación de diversos temas y también una comunidad de personas que trabajan todo el tiempo con análisis de datos y que pueden aportar en el trabajo que ustedes desean realizar. Es importante aclarar que el trabajo que usted va a realizar es diferente a lo que se presenta en los kernels, ya que cada código es diferente y por lo tanto se considera plagio usar un código desarrollado por algún usuario de kaggle y presentado como propio. Usted puede usar algunos ejemplos para lograr algunos tipos de gráficos como los que ellos presentan o para manejar los datos, pero el trabajo de ellos no puede ser el suyo. 
+
+
+ Cada uno de estos links lo lleva a uno de los datos en donde se encuentra la descripción de cada base de datos.
+
+* <a href="https://www.kaggle.com/theworldbank/world-bank-health-population/home/">WB Salud y población</a>
+* <a href="https://www.kaggle.com/gsutters/the-human-freedom-index/home/">Índice de libertad de expresión</a>
+* <a href="https://www.kaggle.com/fdic/bank-failures/">Default Bancarios</a>
+* <a href="https://www.kaggle.com/ntnu-testimon/paysim1/home/">Fraudes en transacciones</a>
+* <a href="https://www.kaggle.com/gemartin/world-bank-data-1960-to-2016/home/">WB Fertilidad, Población y Expectativa de vida</a>
+* <a href="https://www.kaggle.com/theworldbank/worldwide-economic-remittances/">WB remesas</a>
+* <a href="https://www.kaggle.com/johnolafenwa/us-census-data/home/">Salarios</a>
+
+
+
+Realice un análisis estadístico, aprovechando lo que hemos aprendido hasta ahora en este curso. Escriba un informe, como un archivo de notas de R (Rmd). 
+
+El archivo Rmd debe leer los datos directamente desde una fuente de Internet y se debe subir en este repositorio como htlm y Rmd.
+
+ 
 
 
 ## Expectativas del trabajo
@@ -23,7 +44,7 @@ Si sus datos son más largos ejemplo 1000 observaciones, puede realizar una subm
 * Uso de métodos estadísticos adecuados.
 * Los modelos y métodos que utilice deben explicarse completamente, ya sea por referencias o dentro de su informe. Cuando use una referencia para señalar al lector a descripciones en otros lugares, debe proporcionar un breve resumen en su propio informe para que sea autónomo. Aunque va a enviar su código fuente, no debe esperar que el lector lo estudie.
 * Debe decir lo que ha concluido, así como describir las cosas que le hubiera gustado hacer que estaban fuera del alcance.
-* Centrarse en unos pocos datos, cuidadosamente explicados y justificados con ayuda de figuras, tablas, estadísticas y pruebas de hipótesis. Es posible que desee probar muchas cosas, pero solo escriba evidencia que respalde cómo los datos lo ayudan a obtener de su pregunta y sus conclusiones. La inclusión de material que es de relevancia límite o que no se explica completamente hace que sea más difícil para el lector apreciar su análisis.
+* Centrarse en unos pocos datos, cuidadosamente explicados y justificados con ayuda de figuras, tablas, estadísticas y pruebas de hipótesis. Es posible que desee probar muchas cosas, pero solo escriba evidencia que respalde cómo los datos lo ayudan a obtener de su pregunta sus conclusiones. La inclusión de material que es de relevancia límite o que no se explica completamente hace que sea más difícil para el lector apreciar su análisis.
 
 ## Método de calificación
 
@@ -78,8 +99,8 @@ La introducción debe proporcionar antecedentes de los datos que analiza y motiv
 ## Entrega de resultados y Otros 
 
 
-* Tanto el archivo RMD como la base de datos se deben subir en este repositorio con el número del grupo.
-* Máximo tres personas por grupo.
+* Tanto el archivo RMD como lel html se deben subir en este repositorio con el número del grupo.
+* Máximo cuatro personas por grupo.
 * El día de la entrega es el 9 de marzo a las 12:00 am
 * La presentación será el lunes 11 de marzo.
 
