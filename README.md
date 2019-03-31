@@ -931,7 +931,7 @@ EXCEL -->
 
 *	Wackerly, D., Mendenhall, W., & Scheaffer, R. L. (2014). Mathematical statistics with applications. Cengage Learning. 
 
-*	Mendenhall, W., Reinmuth, J. E., Beaver, R. J., & Beaver, B. M. (1993). Statistics for management and economics (No. 310/M537). Belmont, CA: Duxbury Press.
+*	Mendenhall, W., Reinmuth, J. E., Beaver, R. J., & Beaver, B. M. (2007). Statistics for management and economics (No. 310/M537). Belmont, CA: Duxbury Press.
 
 *	Dalgaard, P. (2008). Introductory statistics with R. Springer Science & Business Media.
 
